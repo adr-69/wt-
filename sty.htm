@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>StudyHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="main-area">
 <div class="main-body">
-
+<div id="popup" class="popup-overlay">
+    <div class="popup-box">
+        <h1>Message: </h1>
+        <p>Under Development...</p>
+        <p>Stay Tuned.</p>
+        <button id="closePopup">Close</button>
+    </div>
+</div>
 <header>
-    <h2>StudyHub</h2>
+    <h2><a href="#" onclick="location.reload(); return false;" class="fa-solid fa-house"></a> StudyHub</h2>
 </header>
 <div class="intro-area">
     <div class="intro-body">
@@ -24,21 +31,21 @@
 <div class="study-area">
     <div class="study-body">
         <h1>Advance Study</h1>
-        <button class="topicBTN" onclick="a()">Oral Communication</button>
-        <button class="topicBTN" onclick="a()">Empowerment Technologies</button>
-        <button class="topicBTN" onclick="a()">General Mathematics</button>
-        <button class="topicBTN" onclick="a()">Fundamentals of Computer</button>
-        <button class="topicBTN" onclick="a()">Personal Development</button>
-        <button class="topicBTN" onclick="a()">Kulturang Pilipino</button>
-        <button class="topicBTN" onclick="a()">Design Program Logic</button>
-        <button class="topicBTN" onclick="a()">HOPE#1</button>
-        <button class="topicBTN" onclick="a()">Earth & Social Science</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-comments"></i> Oral Communication</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-network-wired"></i> Empowerment Technologies</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-square-root-variable"></i> General Mathematics</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-desktop"></i> Fundamentals of Computer</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-heart"></i> Personal Development</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-flag"></i> Kulturang Pilipino</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-diagram-project"></i> Design Program Logic</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-person-running"></i> HOPE#1</button>
+        <button class="topicBTNpop" onclick="a()"><i class="fa-solid fa-flask-vial"></i> Earth & Social Science</button>
         <br /> <hr /> <br />
         <h1>Programming Language</h1>
-        <button class="topicBTN" onclick="a()">Python</button>
-        <button class="topicBTN" onclick="a()">JavaScript</button>
-        <button class="topicBTN" onclick="a()">C++</button>
-        <button class="topicBTN" onclick="a()">Java</button>
+        <button class="topicBTNpop" onclick="a()">Python</button>
+        <button class="topicBTNpop" onclick="a()">JavaScript</button>
+        <button class="topicBTNpop" onclick="a()">C++</button>
+        <button class="topicBTNpop" onclick="a()">Java</button>
     </div>
 </div>
 
