@@ -9,3 +9,7 @@ openPopup.forEach(btn => {
 closePopup.onclick = () => {
     popup.style.display = 'none';
 }
+
+function botBTN() {
+    alert("Bot are Under Development.");
+}
